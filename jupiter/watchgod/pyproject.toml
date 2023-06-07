@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jupiter"
+name = "watchgod"
 version = "0.1.0"
 description = ""
 authors = ["Mariusz Drabik <drabik.mariusz@gmail.com>"]
@@ -7,17 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = "^0.85.1"
-uvicorn = "^0.18.3"
 
-
-[tool.poetry.group.dev.dependencies]
-pycodestyle = "^2.9.1"
-mypy = "^0.982"
-black = {version = "^22.10.0", allow-prereleases = true}
-pylint = "^2.15.5"
-pydocstyle = "^6.1.1"
-autopep8 = "^1.7.0"
 
 [build-system]
 requires = ["poetry-core"]
